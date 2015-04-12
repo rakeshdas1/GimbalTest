@@ -28,7 +28,7 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        mainText = (TextView)findViewById(R.id.defaultTextView);
+        mainText = (TextView)findViewById(R.id.mainTextView);
         Gimbal.setApiKey(this.getApplication(), "c035477e-47e2-419c-93de-5507b7c8d029");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
